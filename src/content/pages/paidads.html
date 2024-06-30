@@ -1,39 +1,18 @@
 ---
-title: 'Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO'
+title: 'Project Two | Code Stitch Web Designs'
 description: 'Meta description for the page'
-preloadImg: '/assets/images/landing.jpg'
-permalink: '/'
-tags: 'sitemap' # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/ we need to manually add the sitemap tag to this page (only).
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'services/auto-detail-paid-ads/'
 eleventyNavigation:
-  key: Home
-  order: 100
-  hideOnDesktop: true
+    key: Auto Detail Paid Ads
+    order: 2300
+    parent: Services
 ---
 
 {% extends "layouts/base.html" %}
 
 {% block head %}
-    <link rel="stylesheet" href="/assets/css/local.css"/>
-    <link rel="stylesheet" href="/assets/css/critical.css"/>
-    <script defer src="/assets/js/faq.js"></script>
-
-    <!-- Script for Netlify Identity -->
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script defer>
-        if (window.netlifyIdentity) {
-            window
-                .netlifyIdentity
-                .on('init', (user) => {
-                    if (!user) {
-                        window
-                            .netlifyIdentity
-                            .on('login', () => {
-                                document.location.href = '/admin/';
-                            });
-                    }
-                });
-        }
-    </script>
+    <link rel="stylesheet" href="/assets/css/about.css">
 {% endblock %}
 
 {% block body %}
@@ -42,30 +21,20 @@ eleventyNavigation:
 <!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="hero-331">
+<section id="hero-143">
     <div class="cs-container">
-        <div class="cs-flex-group">
-            <h1 class="cs-title"><span class="cs-accent">Specializing In</span> Auto Detailing Website Design and Auto Detailing SEO</h1>
-            <p class="cs-text">
-                SEO that shines! We create lead-generating websites and specialize in SEO and online auto detailing marketing.
-            </p>
-            <div class="cs-button-group">
-                <a href="/book" class="cs-button-solid">Book Your Call</a>
-                <a href="#pricing-1183" class="cs-button-transparent">
-                    <picture class="cs-picture">
-                        <img class="cs-img" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/chevron-right.svg" alt="icon" width="12" height="12" aria-hidden="true">
-                    </picture>
-                    See Prices
-                </a>
-            </div>
-        </div>
+        <h1 class="cs-title">Auto Detail Paid Ads</h1>
+        <p class="cs-text">
+            Maximize your reach and drive targeted traffic to your auto detailing business with our expert paid advertising services. We manage Google Ads and Facebook Ads campaigns to ensure you get the best return on your investment.
+        </p>
+        <a href="/book" class="cs-button-solid">Book Your Call Now</a>
     </div>
 
     <!-- Background Image -->
     <picture class="cs-background">
         <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/Precision%20Detailing.webp">
         <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/Precision%20Detailing.webp">
-        <img decoding="async" src="https://cosweb.b-cdn.net/Precision%20Detailing.webp" alt="cleaner" width="2250" height="1500" aria-hidden="true">
+        <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/Precision%20Detailing.webp" alt="kitchen" width="2250" height="1500" aria-hidden="true">
     </picture>
 </section>
 
@@ -73,225 +42,129 @@ eleventyNavigation:
 <!--                   Services                   -->
 <!-- ============================================ -->
 
-<ul id="services-331">
-    <li class="cs-item">
-        <picture class="cs-icon-wrapper">
-            <img class="cs-icon" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/support.svg" alt="icon" width="32" height="32" aria-hidden="true">
-        </picture>
-        <div class="cs-info-group">
-            <span class="cs-header">Pro Website Design</span>
-            <span class="cs-desc">Optimized For Auto Detail</span>
-        </div>
-    </li>
-    <li class="cs-item">
-        <picture class="cs-icon-wrapper">
-            <img class="cs-icon" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/secure.svg" alt="icon" width="32" height="32" aria-hidden="true">
-        </picture>
-        <div class="cs-info-group">
-            <span class="cs-header">SEO Optimization</span>
-            <span class="cs-desc">Get #1 Auto Detailer Rankings</span>
-        </div>
-    </li>
-    <li class="cs-item">
-        <picture class="cs-icon-wrapper">
-            <img class="cs-icon" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/clean.svg" alt="icon" width="32" height="32" aria-hidden="true">
-        </picture>
-        <div class="cs-info-group">
-            <span class="cs-header">Optimized For Leads</span>
-            <span class="cs-desc">Get More Leads and Sales</span>
-        </div>
-    </li>
-</ul>
-                                
+<section id="h-services-143">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/toolbox.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 1: 15-Minute Call</h2>
+            <p class="cs-text">
+                Schedule a quick call with us to discuss your needs and goals. This helps us understand your business and what you're looking to achieve.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/buildings.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 2: Onboarding</h2>
+            <p class="cs-text">
+                We’ll collect all necessary information about your business, including branding, services, target audience, and specific preferences for your website.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/gear.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 3: Build Website</h2>
+            <p class="cs-text">
+                Our team will design and develop a custom, lead-generating website optimized for your auto detailing business. We ensure it’s fast, mobile-responsive, and tailored to rank highly on Google.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/user.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 4: Optimize GBP</h2>
+            <p class="cs-text">
+                We’ll optimize your Google Business Profile to ensure your business ranks higher in Google Maps and attracts more leads.
+            </p>
+        </li>
+    </ul>
+</section>
 
 <!-- ============================================ -->
 <!--                 Side By Side                 -->
 <!-- ============================================ -->
 
-<section id="RTsbs-365">
+<section id="RPsbs-1445">
     <div class="cs-container">
-        <div class="cs-image-group">
-            <!-- SVG Paint Splash-->
-            <img class="cs-splash" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/paint-splash2.svg" alt="paint graphic" width="785" height="759">
-
-            <!-- Maid Picture -->
-            <!-- To make your own crops of people, use this tool to remove the backgorund of images https://www.remove.bg/ -->
-            <picture class="cs-person">
-                <source media="(max-width: 600px)" srcset="https://prec.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20iphone.webp">
-                <source media="(min-width: 601px)" srcset="https://prec.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20iphone.webp">
-                <img loading="lazy" decoding="async" src="https://prec.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20iphone.webp" alt="maid" width="743" height="759" aria-hidden="true">
-            </picture>
-        </div>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg" alt="volunteers" width="650" height="600" aria-hidden="true">
+        </picture>
         <div class="cs-content">
-            <span class="cs-topper">Auto Detail SEO</span>
-            <h2 class="cs-title">Lead-Generating Auto Detail Websites</h2>
+            <span class="cs-topper">Giving Back</span>
+            <h2 class="cs-title">How To Donate Us</h2>
             <p class="cs-text">
-                Our lead-generating websites are designed specifically for auto detailing businesses, ensuring you get a fast, mobile-responsive, and custom site tailored to your needs. With 24/7/365 hosting and support, unlimited edits, and dedicated care, our websites are optimized to rank highly on Google using a proven framework and layout.
+                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
             </p>
-            <ul class="cs-ul">
-                <li class="cs-li">Custom design for your business</li>
-                <li class="cs-li">Fast and mobile-responsive</li>
-                <li class="cs-li">24/7/365 hosting and support</li>
-                <li class="cs-li">Unlimited edits and custom care</li>
-                <li class="cs-li">Optimized for high Google rankings</li>
-            </ul>
-            <a href="/book" class="cs-button-solid">Book Your Call Now</a>
-        </div>
-    </div>
-</section>
-                                
-<!-- ============================================ -->
-<!--              Side By Side Reverse            -->
-<!-- ============================================ -->
-
-<section id="RTsbsr-365">
-    <div class="cs-container">
-        <div class="cs-image-group">
-            <!-- SVG Paint Splash-->
-            <img class="cs-splash" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/blue-splash.svg" alt="paint graphic" width="785" height="759">
-
-            <!-- Maid Picture -->
-            <!-- To make your own crops of people, use this tool to remove the backgorund of images https://www.remove.bg/ -->
-            <picture class="cs-person">
-                <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20GBP%20(2).webp">
-                <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20GBP%20(2).webp">
-                <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20GBP%20(2).webp" alt="maid" width="562" height="759"  aria-hidden="true">
-            </picture>
-        </div>
-        <div class="cs-content">
-            <span class="cs-topper">Local SEO For Auto Detailers</span>
-            <h2 class="cs-title">Auto Detail SEO</h2>
-            <p class="cs-text">
-                Our Local SEO service focuses on enhancing your Google Business Profile and optimizing your online presence to rank higher in Google Maps. With ongoing optimization, weekly content posts, and proprietary ranking increase methods, we ensure your auto detailing business outranks the competition and attracts more leads.
-            </p>
-            <ul class="cs-ul">
-                <li class="cs-li">Google Business Profile optimization</li>
-                <li class="cs-li">Weekly content posted</li>
-                <li class="cs-li">Ongoing optimization and updates</li>
-                <li class="cs-li">Proprietary ranking increase methods</li>
-                <li class="cs-li">Location and neighborhood pages</li>
-            </ul>
-            <a href="/book" class="cs-button-solid">Book Your Call Now</a>
-        </div>
-    </div>
-</section>
-            
-<!-- ============================================ -->
-<!--              Side By Side Triplet            -->
-<!-- ============================================ -->
-
-<section id="RTsbst-365">
-    <div class="cs-container">
-        <div class="cs-image-group">
-            <!-- SVG Paint Splash-->
-            <img class="cs-splash" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/paint-splash2.svg" alt="paint graphic" width="785" height="759">
-
-            <!-- Maid Picture -->
-            <!-- To make your own crops of people, use this tool to remove the backgorund of images https://www.remove.bg/ -->
-            <picture class="cs-person">
-                <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20Ads.webp">
-                <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20Ads.webp">
-                <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/Auto%20Detail%20SEO%20-%20Mobile%20Responsive%20-%20Ads.webp" alt="maid" width="743" height="759" aria-hidden="true">
-            </picture>
-        </div>
-        <div class="cs-content">
-            <span class="cs-topper">Auto Detail SEO</span>
-            <h2 class="cs-title">Auto Detailing Paid Ads</h2>
-            <p class="cs-text">
-                Our Paid Ads service leverages Google Ads and Facebook Ads to drive targeted traffic to your auto detailing business. We create and manage effective ad campaigns to ensure you reach the right audience, increase your visibility, and generate more leads.
-            </p>
-            <ul class="cs-ul">
-                <li class="cs-li">Targeted Google Ads campaigns</li>
-                <li class="cs-li">Engaging Facebook Ads</li>
-                <li class="cs-li">Comprehensive ad management</li>
-                <li class="cs-li">Increased visibility and traffic</li>
-                <li class="cs-li">More leads for your business</li>
-            </ul>
-            <a href="/book" class="cs-button-solid">Book Your Call Now</a>
-        </div>
-    </div>
-</section>
-
-<!-- ============================================ -->
-<!--                   Gallery                    -->
-<!-- ============================================ -->
-
-<section id="gallery-1374">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">Precision Detailing Success Story</span>
-            <h2 class="cs-title">See Our Work in Action</h2>
-            <p class="cs-text">
-                At Auto Detail SEO, we take pride in creating high-quality, lead-generating websites for auto detailing businesses. Precision Detailing is a perfect example of our work in action. This custom-built site is not only visually stunning but also optimized to attract and convert leads. With a fast, mobile-responsive design and effective SEO strategies, Precision Detailing has seen significant growth in their online presence and customer base.
-            </p>
-        </div>
-        <ul class="cs-image-group">
-            <!-- Card 1 -->
-            <li class="cs-item">
-                <a href="https://precisiondetailingandtint.com" class="cs-link" target="blank">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)" srcset="https://prec.b-cdn.net/Precision%20Website%20-%20Mobile.webp">
-                        <source media="(min-width: 601px)" srcset="https://prec.b-cdn.net/Precision%20Website%20(2).png">
-                        <img loading="lazy" decoding="async" src="https://prec.b-cdn.net/Precision%20Website%20(2).png" alt="fancy house" width="1080" height="1080">
+            <ul class="cs-card-group">
+                <li class="cs-li">
+                    <picture class="cs-li-picture">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer1.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
                     </picture>
-                    <div class="cs-item-text">
-                        <div class="cs-flex">
-                            <h3 class="cs-h3">Precision Detailing and Tint in Ridgecrest, CA</h3>
-                            <span class="cs-desc">https://precisiondetailingandtint.com</span>
-                        </div>
-                        <picture class="cs-icon-wrapper">
-                            <img class="cs-icon" decoding="async"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
-                                            alt="arrow" width="413" height="374" aria-hidden="true">
-                        </picture>
+                    <div class="cs-flex">
+                        <h3 class="cs-h3">Become a Volunteer</h3>
+                        <p class="cs-li-text">
+                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                        </p>
                     </div>
-                </a>
-            </li>
-        </ul>
-        <a href="/book" class="cs-button-solid">Book Your Call Now</a>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-li-picture">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer2.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
+                    </picture>
+                    <div class="cs-flex">
+                        <h3 class="cs-h3">Quick Fundraise</h3>
+                        <p class="cs-li-text">
+                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-li-picture">
+                        <img class="cs-li-icon" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/volunteer3.svg" decoding="async" alt="icon" width="32" height="32" loading="lazy">
+                    </picture>
+                    <div class="cs-flex">
+                        <h3 class="cs-h3">Start Donating</h3>
+                        <p class="cs-li-text">
+                            It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                        </p>
+                    </div>
+                </li>
+            </ul>     
+            <a href="" class="cs-button-solid">Donate Now</a>        
+        </div>
     </div>
-    <div class="cs-bubbles" aria-hidden="true"></div>
 </section>
 
 <!-- ============================================ -->
-<!--                   Steps                      -->
+<!--             Side By Side Reverse             -->
 <!-- ============================================ -->
 
-<section id="steps-1210">
+<section id="RPsbsr-1445">
     <div class="cs-container">
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/volunteers.jpg" alt="volunteers" width="650" height="600" aria-hidden="true">
+        </picture>
         <div class="cs-content">
-            <span class="cs-topper">Simple Steps to Success</span>
-            <h2 class="cs-title">How to Get Started</h2>
-            <p class="cs-text">Working with Auto Detail SEO is easy. Follow these three simple steps to start generating more leads and sales for your auto detailing business.
+            <span class="cs-topper">Giving Back</span>
+            <h2 class="cs-title">How To Donate Us</h2>
+            <p class="cs-text">
+                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
             </p>
+            <p class="cs-text">
+                Our impact is about more than moving money to where it’s needed most it’s also about helping nonprofits access information and ideas that will help them listen, learn, and grow. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laborum hic consequuntur porro repudiandae officiis, necessitatibus vero natus nihil suscipit.
+            </p>    
+            <a href="" class="cs-button-solid">Donate Now</a>        
         </div>
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <span class="cs-number">01</span>
-                <h3 class="cs-h3">Book a 15-Minute Call</h3>
-                <p class="cs-item-text">
-                    Schedule a quick call with us to discuss your needs and goals.
-                </p>
-            </li>
-            <li class="cs-item">
-                <span class="cs-number">02</span>
-                <h3 class="cs-h3">Get Your Custom Plan</h3>
-                <p class="cs-item-text">
-                    We’ll create a tailored SEO and marketing strategy designed for your business.
-                </p>
-            </li>
-            <li class="cs-item">
-                <span class="cs-number">03</span>
-                <h3 class="cs-h3">Enjoy More Clients and Sales</h3>
-                <p class="cs-item-text">
-                    Watch your business grow as you gain more leads and increase your sales.
-                </p>
-            </li>
-        </ul>
     </div>
 </section>
                                 
-
 <!-- ============================================ -->
 <!--                   Pricing                    -->
 <!-- ============================================ -->
@@ -482,8 +355,51 @@ eleventyNavigation:
         </div>
     </div>
 </section>
-                                
 
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-298">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <!--Floating Box-->
+            <div class="cs-box">
+                <span class="cs-number">21</span>
+                <span class="cs-desc">years of building websites</span>
+                <!--Background image for cs-box-->
+                <picture class="cs-box-picture">
+                    <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/matt-cswd.webp">
+                    <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/matt-cswd.webp">
+                    <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/matt-cswd.webp" alt="greek pillars" width="521" height="672" aria-hidden="true">
+                </picture>
+            </div>
+            <!--Big Background Image-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/matt-lubbes-colorado-springs_1%20(1).webp">
+                <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/matt-lubbes-colorado-springs_1%20(1).webp">
+                <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/matt-lubbes-colorado-springs_1%20(1).webp" alt="greek pillars" width="521" height="672" aria-hidden="true">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Meet The Founder</span>
+            <h2 class="cs-title">Who Is Behind Auto Detail SEO?</h2>
+            <p class="cs-text">
+                Hello there! My name is Matt Lubbes, and I'm the heart behind Auto Detail SEO, a brand of Colorado Springs Web Designs. My journey into digital marketing started uniquely—I began as a pizza restaurant owner. Over time, my passion for helping local businesses succeed online led me to transition into digital marketing.
+            </p>
+            <p class="cs-text">
+                For the last 21 years, I’ve focused on creating websites that are more than just visually appealing; they’re designed to generate leads and grow sales continuously. I believe your business's website should work tirelessly to boost your sales every day of the year. With two decades of experience and hundreds of successful websites, I’ve perfected my process to ensure exceptional results for every project.
+            </p>
+            <p class="cs-text">
+                Interested in growing your auto detail business? Click the button below to schedule your 15-minute call.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="/book">Book Your Call Now</a>
+        </div>
+    </div>
+</section>     
+                                
 <!-- ============================================ -->
 <!--                    Quote                     -->
 <!-- ============================================ -->
@@ -513,8 +429,7 @@ eleventyNavigation:
         <img loading="lazy" decoding="async" src="https://prec.b-cdn.net/Polishing%20Car%20(2).webp" alt="body builder" width="630" height="877">
     </picture>
 </section>
-     
-
 
     {% include 'components/cta.html' %}
+
 {% endblock %}

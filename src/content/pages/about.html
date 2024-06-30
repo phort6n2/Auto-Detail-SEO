@@ -4,8 +4,8 @@ description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
 permalink: 'about/'
 eleventyNavigation:
-    key: About Us
-    order: 200
+    key: Our Process
+    order: 300
 ---
 
 {% extends "layouts/base.html" %}
@@ -15,61 +15,425 @@ eleventyNavigation:
 {% endblock %}
 
 {% block body %}
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-143">
+    <div class="cs-container">
+        <h1 class="cs-title">Learn About How We Grow Your Sales</h1>
+        <p class="cs-text">
+            Our transparent and proven process ensures that you receive a customized plan tailored to your specific needs, helping you achieve higher visibility and more leads. Read below to find out more.
+        </p>
+        <a href="/book" class="cs-button-solid">Book Your Call Now</a>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/Precision%20Detailing.webp">
+        <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/Precision%20Detailing.webp">
+        <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/Precision%20Detailing.webp" alt="kitchen" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="h-services-143">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/toolbox.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 1: 15-Minute Call</h2>
+            <p class="cs-text">
+                Schedule a quick call with us to discuss your needs and goals. This helps us understand your business and what you're looking to achieve.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/buildings.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 2: Onboarding</h2>
+            <p class="cs-text">
+                We’ll collect all necessary information about your business, including branding, services, target audience, and specific preferences for your website.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/gear.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 3: Build Website</h2>
+            <p class="cs-text">
+                Our team will design and develop a custom, lead-generating website optimized for your auto detailing business. We ensure it’s fast, mobile-responsive, and tailored to rank highly on Google.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/user.svg" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Step 4: Optimize GBP</h2>
+            <p class="cs-text">
+                We’ll optimize your Google Business Profile to ensure your business ranks higher in Google Maps and attracts more leads.
+            </p>
+        </li>
+    </ul>
+</section>
+
+<!-- ============================================ -->
+<!--                  Side By Side                -->
+<!-- ============================================ -->
+
+<section id="RPsbs-1587">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/one%20(1).webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/one%20(1).webp">
+            <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/one%20(1).webp" alt="models" width="586" height="690">
         </picture>
-
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
+        <div class="cs-content">
+            <span class="cs-topper">Step 1</span>
+            <h2 class="cs-title">15-Minute Call</h2>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">01</span>
+                        <h3 class="cs-h3">
+                            Request the Call
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Fill out our <a href="/book">online form</a> to request a free 15-minute consultation.
                     </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
-            </div>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">02</span>
+                        <h3 class="cs-h3">
+                            Schedule the Call
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        We will contact you to schedule a convenient time for the call.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">03</span>
+                        <h3 class="cs-h3">
+                            Discuss Your Goals
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        During the call, we’ll discuss your business needs, goals, and objectives.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">04</span>
+                        <h3 class="cs-h3">
+                            Plan Next Steps
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        We'll outline the next steps and how we can help you achieve your goals.
+                    </p>
+                </li>
+            </ul>
+            <a href="/book" class="cs-button-solid">Book Your Call Now</a>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--              Side By Side Reverse            -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-1587">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/two.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/two.webp">
+            <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/two.webp" alt="models" width="586" height="690">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Step 2</span>
+            <h2 class="cs-title">Onboarding and Gathering Info</h2>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">01</span>
+                        <h3 class="cs-h3">
+                            Business Information
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        We’ll collect detailed information about your business, including branding, services, and target audience.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">02</span>
+                        <h3 class="cs-h3">
+                            Preferences
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Gather your specific preferences and requirements for your website design.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">03</span>
+                        <h3 class="cs-h3">
+                            Content Collection
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Collect any existing content, images, and materials you want to include on your website.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">04</span>
+                        <h3 class="cs-h3">
+                            Finalize Details
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Confirm all gathered information and finalize the plan for your website and SEO strategy.
+                    </p>
+                </li>
+            </ul>
+            <a href="" class="cs-button-solid">Book Your Call Now</a>
+        </div>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                  Side By Side                -->
+<!-- ============================================ -->
+
+<section id="RPsbs-1587">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/three.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/three.webp">
+            <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/three.webp" alt="models" width="586" height="690">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Step 3</span>
+            <h2 class="cs-title">Build the Site</h2>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">01</span>
+                        <h3 class="cs-h3">
+                            Design Phase
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Our team will create a custom design for your website, focusing on aesthetics and user experience.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">02</span>
+                        <h3 class="cs-h3">
+                            Development Phase
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Develop the website with a fast, mobile-responsive, and SEO-friendly framework.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">03</span>
+                        <h3 class="cs-h3">
+                            Review & Feedback
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Present the website to you for review and gather your feedback.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">04</span>
+                        <h3 class="cs-h3">
+                            Launch
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Make final adjustments based on your feedback and launch the website.
+                    </p>
+                </li>
+            </ul>
+            <a href="/book" class="cs-button-solid">Book Your Call Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--              Side By Side Reverse            -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-1587">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/four%20(1).webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/four%20(1).webp">
+            <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/four%20(1).webp" alt="models" width="586" height="690">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Step 4</span>
+            <h2 class="cs-title">Optimize Google Business Profile</h2>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">01</span>
+                        <h3 class="cs-h3">
+                            Initial Setup
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Optimize your Google Business Profile with accurate information and high-quality images.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">02</span>
+                        <h3 class="cs-h3">
+                            Content Posting
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Post content to keep your profile active and engaging.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">03</span>
+                        <h3 class="cs-h3">
+                            Ongoing Optimization
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Continuously update and optimize your profile based on performance and feedback.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">04</span>
+                        <h3 class="cs-h3">
+                            Ranking Strategies
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        Implement proprietary ranking increase methods to ensure your business ranks higher in Google Maps and attracts more leads.
+                    </p>
+                </li>
+            </ul>
+            <a href="/book" class="cs-button-solid">Book Your Call Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-1374">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Precision Detailing Success Story</span>
+            <h2 class="cs-title">See Our Work in Action</h2>
+            <p class="cs-text">
+                At Auto Detail SEO, we take pride in creating high-quality, lead-generating websites for auto detailing businesses. Precision Detailing is a perfect example of our work in action. This custom-built site is not only visually stunning but also optimized to attract and convert leads. With a fast, mobile-responsive design and effective SEO strategies, Precision Detailing has seen significant growth in their online presence and customer base.
+            </p>
+        </div>
+        <ul class="cs-image-group">
+            <!-- Card 1 -->
+            <li class="cs-item">
+                <a href="https://precisiondetailingandtint.com" class="cs-link" target="blank">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="https://prec.b-cdn.net/Precision%20Website%20-%20Mobile.webp">
+                        <source media="(min-width: 601px)" srcset="https://prec.b-cdn.net/Precision%20Website%20(2).png">
+                        <img loading="lazy" decoding="async" src="https://prec.b-cdn.net/Precision%20Website%20(2).png" alt="fancy house" width="1080" height="1080">
+                    </picture>
+                    <div class="cs-item-text">
+                        <div class="cs-flex">
+                            <h3 class="cs-h3">Precision Detailing and Tint in Ridgecrest, CA</h3>
+                            <span class="cs-desc">https://precisiondetailingandtint.com</span>
+                        </div>
+                        <picture class="cs-icon-wrapper">
+                            <img class="cs-icon" decoding="async"
+                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                                            alt="arrow" width="413" height="374" aria-hidden="true">
+                        </picture>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <a href="/book" class="cs-button-solid">Book Your Call Now</a>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+                     
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-298">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-image-group">
+            <!--Floating Box-->
+            <div class="cs-box">
+                <span class="cs-number">21</span>
+                <span class="cs-desc">years of building websites</span>
+                <!--Background image for cs-box-->
+                <picture class="cs-box-picture">
+                    <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/matt-cswd.webp">
+                    <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/matt-cswd.webp">
+                    <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/matt-cswd.webp" alt="greek pillars" width="521" height="672" aria-hidden="true">
+                </picture>
+            </div>
+            <!--Big Background Image-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/matt-lubbes-colorado-springs_1%20(1).webp">
+                <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/matt-lubbes-colorado-springs_1%20(1).webp">
+                <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/matt-lubbes-colorado-springs_1%20(1).webp" alt="greek pillars" width="521" height="672" aria-hidden="true">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Meet The Founder</span>
+            <h2 class="cs-title">Who Is Behind Auto Detail SEO?</h2>
+            <p class="cs-text">
+                Hello there! My name is Matt Lubbes, and I'm the heart behind Auto Detail SEO, a brand of Colorado Springs Web Designs. My journey into digital marketing started uniquely—I began as a pizza restaurant owner. Over time, my passion for helping local businesses succeed online led me to transition into digital marketing.
+            </p>
+            <p class="cs-text">
+                For the last 21 years, I’ve focused on creating websites that are more than just visually appealing; they’re designed to generate leads and grow sales continuously. I believe your business's website should work tirelessly to boost your sales every day of the year. With two decades of experience and hundreds of successful websites, I’ve perfected my process to ensure exceptional results for every project.
+            </p>
+            <p class="cs-text">
+                Interested in growing your auto detail business? Click the button below to schedule your 15-minute call.
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="/book">Book Your Call Now</a>
+        </div>
+    </div>
+</section>                       
 
     {% include 'components/cta.html' %}
 

@@ -1,0 +1,101 @@
+---
+title: 'About | Code Stitch Web Designs'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'book/'
+eleventyNavigation:
+    key: Start Now
+    order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/book.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1467">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Request A Free 15-Minute Call To Get Started</h1>
+            <p class="cs-text">
+                Fill out the form to schedule your free 15-minute call and discover how we can help your auto detailing business grow.
+            </p>
+            <div class="cs-reviews" aria-hidden="true">
+                <div class="cs-reviews-flex">
+                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://cosweb.b-cdn.net/star.webp" alt="icon" width="48" height="48">
+                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://cosweb.b-cdn.net/ponce.webp" alt="icon" width="48" height="48">
+                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://cosweb.b-cdn.net/alex.webp" alt="icon" width="48" height="48">
+                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://cosweb.b-cdn.net/zach-reviews.webp" alt="icon" width="48" height="48">
+                    <img class="cs-reviews-img" decoding="async" fetchpriority="high" src="https://cosweb.b-cdn.net/Bryan%20Woolard.webp" alt="icon" width="48" height="48">
+                    
+                </div>
+            </div>
+            <div class="cs-stars">
+                <img class="cs-icon" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/star-single.svg" alt="icon" width="16" height="16">
+                <img class="cs-icon" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/star-single.svg" alt="icon" width="16" height="16">
+                <img class="cs-icon" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/star-single.svg" alt="icon" width="16" height="16">
+                <img class="cs-icon" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/star-single.svg" alt="icon" width="16" height="16">
+                <img class="cs-icon" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/star-single.svg" alt="icon" width="16" height="16">
+            </div>
+            <p class="cs-desc">
+                Auto Detail SEO is rated 5/5 from happy auto detailers like you!
+            </p>
+        </div>
+        <div class="cs-right">
+            <span class="cs-tag">
+                Auto Detailer Special
+                <span class="cs-dot" aria-hidden="true"></span>
+            </span>
+            <div class="cs-flex">
+                <h3 class="cs-h3">Let's Partner To Grow Your Auto Detail Business!</h3>
+                <p class="cs-form-text">
+                    We'll contact you ASAP to schedule your free 15-minute call.
+                </p>
+            </div>
+            <!--Form-->
+            <form class="cs-form" id="cs-form-1467" name="Contact Form" method="post">
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-1467" name="name">
+                </label>
+                <label class="cs-label">
+                    Phone
+                    <input class="cs-input" required type="tel" id="phone-1467" name="phone">
+                </label>
+                <label class="cs-label">
+                    Email
+                    <input class="cs-input" required type="email" id="email-1467" name="email">
+                </label>
+                <label class="cs-label">
+                    Business Name
+                    <input class="cs-input" required type="text" id="hear-1467" name="heat">
+                </label>
+                <label class="cs-label cs-message">
+                    Tell us about your business and where you're located
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-1467"></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit">Request My 15-Minute Call</button>
+            </form>
+            <p class="cs-disclaimer">
+                <img class="cs-disclaimer-icon" decoding="async" fetchpriority="high" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/lock.svg" alt="icon" width="20" height="20">
+                *We specialize in helping Auto Detailers grow their businesses...get started now!
+            </p>
+        </div>
+    </div>
+
+    <!-- Background Image, added in CSS as a backgorund image for parallax effect -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://cosweb.b-cdn.net/Precision%20Detailing.webp">
+        <source media="(min-width: 601px)" srcset="https://cosweb.b-cdn.net/Precision%20Detailing.webp">
+        <img loading="lazy" decoding="async" src="https://cosweb.b-cdn.net/Precision%20Detailing.webp" alt="field" width="1920" height="1200" aria-hidden="true">
+    </picture>
+</section>
+
+{% endblock %}
