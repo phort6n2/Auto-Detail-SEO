@@ -1,8 +1,8 @@
 module.exports = {
     "name": "Auto Detail SEO",
     "email": "matt@coloradospringswebdesigns.com",
-    "phoneForTel": "888-349-4844",
-    "phoneFormatted": "(888) 349-4844",
+    "phoneForTel": "888-339-4844",
+    "phoneFormatted": "(888) 339-4844",
     "address": {
         "lineOne": "First Address Line",
         "lineTwo": "Second Address Line",
